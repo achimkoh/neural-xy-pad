@@ -26,4 +26,5 @@ Also made a change to the original m4l patch [so that every parameter change doe
 
 - drawing speed control (currently triggered every 50ms)
 - temperature control
-- select models (not sure if this is actually possible. I might have to resort to creating multiple instruments?)
+- better mapping of x, y values (currently hardcoded to roughly remain around the center of the pad) and control over mapping scale
+- option to select models (not sure if this is feasible. I might have to resort to creating multiple instruments?)
