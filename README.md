@@ -12,7 +12,11 @@ Also made a change to the original m4l patch [so that every parameter change doe
 
 ## How to use
 
-Download and unzip this folder. Drag and drop the .amxd file in your project, where it is convenient (this is an Audio Effect). Click one of the 'Map' buttons and then click to some parameter in Live that you want the pad to control. Do the same with the other button. The on/off trigger shows 'Off' by default; click on it to let the neural net start drawing on your xy controller.
+- Download and unzip this folder. (https://github.com/achimkoh/m4l-sketch-rnn-xy/releases) 
+- Drag and drop the .amxd file in your Ableton Live project, where it is convenient (this is an Audio Effect). 
+- Note: the .amxd file and the .js file need to be in the same folder.
+- Click one of the 'Map' buttons and then click to some parameter in Live that you want the pad to control. Do the same with the other button. 
+- The on/off trigger shows 'Off' by default; click on it to let the neural net start drawing on your xy controller.
 
 ## To do
 
