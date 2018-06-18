@@ -10,7 +10,11 @@ I stripped out p5.js-related lines since I don't need to draw actual lines (not 
 
 Also made a change to the original m4l patch [so that every parameter change does not land on the undo history](https://cycling74.com/forums/parameter-modulation-without-adding-to-undo-history/). 
 
-## TODO
+## How to use
+
+Download and unzip this folder. Drag and drop the .amxd file in your project, where it is convenient (this is an Audio Effect). Click one of the 'Map' buttons and then click to some parameter in Live that you want the pad to control. Do the same with the other button. The on/off trigger shows 'Off' by default; click on it to let the neural net start drawing on your xy controller.
+
+## To do
 
 - drawing speed control (currently triggered every 50ms)
 - temperature control
