@@ -1,4 +1,4 @@
-# Sketch-RNN-controlled Max4Live XY pad
+# Neural XY pad
 
 ![animation that shows the effect in action](demo.gif)
 
