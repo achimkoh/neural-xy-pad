@@ -21,9 +21,11 @@ Also made a change to the original m4l patch [so that every parameter change doe
 - Note: the .amxd file and the .js file need to be in the same folder.
 - Click one of the 'Map' buttons and then click to some parameter in Live that you want the pad to control. Do the same with the other button. 
 - The on/off trigger shows 'Off' by default; click on it to let the neural net start drawing on your xy controller.
+- Note: currently, only one instance of the neural xy pad works at a time.
 
 ## To do
 
+- Enable multiple instances (currently, only the one added last works)
 - drawing speed control (currently triggered every 50ms)
 - temperature control
 - better mapping of x, y values (currently hardcoded to roughly remain around the center of the pad) and control over mapping scale
