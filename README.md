@@ -2,11 +2,11 @@
 
 ![animation that shows the effect in action](demo.gif)
 
-A Sketch-RNN model draws birds on an XY pad in Ableton Live. Endless pad gestures, different every time. 
+A recurrent neural network draws shapes on an XY pad in Ableton Live. Endless pad gestures, different every time. 
 
 See it in action: https://vimeo.com/275539143
 
-The gist of it is Google Magenta's [Sketch-RNN-JS](https://github.com/tensorflow/magenta-demos/tree/master/sketch-rnn-js) [bird generation model](https://storage.googleapis.com/quickdraw-models/sketchRNN/models/bird.gen.js) attached to [XY Pad Snap-Mod 1.0](http://www.maxforlive.com/library/device/2792/xy-pad-snap-mod) by [Krypt1k](https://www.krypt1k.com/). 
+It is mainly the [bird generation model](https://storage.googleapis.com/quickdraw-models/sketchRNN/models/bird.gen.js) from Google Magenta's [Sketch-RNN-JS](https://github.com/tensorflow/magenta-demos/tree/master/sketch-rnn-js) attached to [XY Pad Snap-Mod 1.0](http://www.maxforlive.com/library/device/2792/xy-pad-snap-mod) by [Krypt1k](https://www.krypt1k.com/). 
 
 Adam Murray's [JavaScript Live API Tutorials](http://compusition.com/writings/js-live-api) and Johnny Snelgrove's [midi thru js fn](https://github.com/jsnelgro/midi-thru-js-fn) were very helpful in attempting to run js in Max. 
 
@@ -27,4 +27,4 @@ Also made a change to the original m4l patch [so that every parameter change doe
 - drawing speed control (currently triggered every 50ms)
 - temperature control
 - better mapping of x, y values (currently hardcoded to roughly remain around the center of the pad) and control over mapping scale
-- option to select models (not sure if this is feasible. I might have to resort to creating multiple instruments?)
+- option to select other generation models (not sure if this is feasible because of the not being able to import thing. I could simply create multiple instruments?)
