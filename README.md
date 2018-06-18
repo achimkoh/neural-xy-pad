@@ -1,5 +1,7 @@
 # Sketch-RNN-controlled Max4Live XY pad
 
+![animation that shows the effect in action](demo.gif)
+
 A Sketch-RNN model draws birds on an XY pad in Ableton Live. Because I'm too lazy to control the pad myself. See it in action: https://vimeo.com/275539143
 
 I basically attached Google Magenta's [Sketch-RNN-JS](https://github.com/tensorflow/magenta-demos/tree/master/sketch-rnn-js) [bird generation model](https://storage.googleapis.com/quickdraw-models/sketchRNN/models/bird.gen.js) to [XY Pad Snap-Mod 1.0](http://www.maxforlive.com/library/device/2792/xy-pad-snap-mod) by [Krypt1k](https://www.krypt1k.com/). 
