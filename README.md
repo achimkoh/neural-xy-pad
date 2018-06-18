@@ -2,9 +2,11 @@
 
 ![animation that shows the effect in action](demo.gif)
 
-A Sketch-RNN model draws birds on an XY pad in Ableton Live. Endless pad gestures, different every time. See it in action: https://vimeo.com/275539143
+A Sketch-RNN model draws birds on an XY pad in Ableton Live. Endless pad gestures, different every time. 
 
-I basically attached Google Magenta's [Sketch-RNN-JS](https://github.com/tensorflow/magenta-demos/tree/master/sketch-rnn-js) [bird generation model](https://storage.googleapis.com/quickdraw-models/sketchRNN/models/bird.gen.js) to [XY Pad Snap-Mod 1.0](http://www.maxforlive.com/library/device/2792/xy-pad-snap-mod) by [Krypt1k](https://www.krypt1k.com/). 
+See it in action: https://vimeo.com/275539143
+
+The gist of it is Google Magenta's [Sketch-RNN-JS](https://github.com/tensorflow/magenta-demos/tree/master/sketch-rnn-js) [bird generation model](https://storage.googleapis.com/quickdraw-models/sketchRNN/models/bird.gen.js) attached to [XY Pad Snap-Mod 1.0](http://www.maxforlive.com/library/device/2792/xy-pad-snap-mod) by [Krypt1k](https://www.krypt1k.com/). 
 
 Adam Murray's [JavaScript Live API Tutorials](http://compusition.com/writings/js-live-api) and Johnny Snelgrove's [midi thru js fn](https://github.com/jsnelgro/midi-thru-js-fn) were very helpful in attempting to run js in Max. 
 
